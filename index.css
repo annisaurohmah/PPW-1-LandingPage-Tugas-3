@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 0;
+    background-color: #F1F6F9;
+}
+.login {
+    display: flex;
+    gap: 4px;
+    justify-self: center;
+}
+nav, a{
+    color: white;
+}
+.navbar {
+    --bs-navbar-padding-y: 0;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: rgb(230, 255, 44);
+    --bs-navbar-active-color: whitesmoke;
+}
+.navbar-brand {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.215em;
+    text-transform: capitalize;
+}
+.bd-navbar {
+    background-color: #394867;
+}
+h1 {
+    width: 450px;
+    max-width: 100%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;;
+    color: #212A3E;
+}
+.col-3 p{
+    max-width: 100%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #394867;
+}
+
+
+.rowdua {
+    position: relative;
+    background-color: #394867;
+}
+h4 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.card-text {
+    font-size: 0.5rem;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #212A3E;
+}
+.container-fluid {
+    height: fit-content;
+    --bs-container-fluid-padding-x: 1rem;
+    scroll-behavior: smooth;
+}
+.container-fluid::-webkit-scrollbar {
+    display: none;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (max-width: 768px){
+    .col-md-4 img{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .fa-arrow-circle-o-right {
+        display: none;
+    } 
+    .fa-arrow-circle-o-left {
+        display: none;
+    } 
+}
+@media (min-width: 768px){
+    .col-md-4 img{
+        border-radius: 5px 0px 0px 0px;
+    }
+}
+.fa-arrow-circle-o-right {
+    position: absolute;
+    right: 10px;
+    bottom: 35%;
+    z-index: 300;
+    color: #F1F6F9;
+    
+}
+.fa-arrow-circle-o-right:hover {
+    color: #263657;
+}
+.fa-arrow-circle-o-left {
+    position: absolute;
+    left: 10px;
+    bottom: 35%;
+    z-index: 300;
+    color: #F1F6F9;
+    visibility: visible;
+    
+}
+.fa-arrow-circle-o-left:hover {
+    color: #263657;
+}
+
+
