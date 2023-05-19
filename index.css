@@ -87,7 +87,7 @@ h4 {
 }
 @media (max-width: 768px){
     .col-md-4 img{
-        border-radius: 5px 5px 0px 0px;
+        border-radius: 5px 5px 0px 5px;
     }
     .fa-arrow-circle-o-right {
         display: none;
