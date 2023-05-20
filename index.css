@@ -85,8 +85,8 @@ h4 {
     margin-right: 0;
     margin-left: 0;
 }
-@media (max-width: 992px){
-    .col-lg-4 img{
+@media (max-width: 768px){
+    .col-md-4 img{
         border-radius: 5px 5px 0px 0px;
     }
     .fa-arrow-circle-o-right {
@@ -96,8 +96,8 @@ h4 {
         display: none;
     } 
 }
-@media (min-width: 992px){
-    .col-lg-4 img{
+@media (min-width: 768px){
+    .col-md-4 img{
         border-radius: 5px 0px 0px 5px;
     }
 }
